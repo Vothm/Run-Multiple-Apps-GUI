@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/fNyDK0nxRS7XLXwQVeE3EEUdlNPsx3p7nWmrMx2FoCG1kAoTKIMPJmsbFR3YP7TUOfRzn3eGVWGysi7/Ht/gw==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vince\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.7\\microsoft.netcore.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\vince\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.7\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\vince\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.7\\microsoft.aspnetcore.app.runtime.win-x86.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
