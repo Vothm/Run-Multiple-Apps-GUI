@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run Multiple Apps GUI", "Run Multiple Apps GUI\Run Multiple Apps GUI.csproj", "{41FB2235-ADE4-4106-B34D-BA5FEEB9559A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41FB2235-ADE4-4106-B34D-BA5FEEB9559A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FB2235-ADE4-4106-B34D-BA5FEEB9559A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FB2235-ADE4-4106-B34D-BA5FEEB9559A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FB2235-ADE4-4106-B34D-BA5FEEB9559A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FA1DEDC-3028-4C87-8A6D-2948DA993E31}
+	EndGlobalSection
+EndGlobal

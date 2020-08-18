@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Run Multiple Apps GUI/1.0.0": {
+        "runtime": {
+          "Run Multiple Apps GUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Run Multiple Apps GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
