@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "/fNyDK0nxRS7XLXwQVeE3EEUdlNPsx3p7nWmrMx2FoCG1kAoTKIMPJmsbFR3YP7TUOfRzn3eGVWGysi7/Ht/gw==",
+  "dgSpecHash": "HbV08LaqEBYojGaUug06xtar/DBFNqwOqJetH7sdTu1LSDYYiEjyboAE3sUxHGySo/n+E4d7ej/UfIXqX2YPaA==",
   "success": true,
   "projectFilePath": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vince\\.nuget\\packages\\autoclosingmessagebox\\1.0.0.2\\autoclosingmessagebox.1.0.0.2.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.7\\microsoft.netcore.app.runtime.win-x86.3.1.7.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.7\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.7.nupkg.sha512",
     "C:\\Users\\vince\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.7\\microsoft.aspnetcore.app.runtime.win-x86.3.1.7.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoClosingMessageBox 1.0.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoClosingMessageBox",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

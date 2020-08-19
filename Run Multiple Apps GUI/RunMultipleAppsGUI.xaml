@@ -7,18 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowState="Normal" ResizeMode="NoResize">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="152,38,0,0" Text="Run and Create Multiple Apps GUI" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="550" FontSize="36"/>
-        <Button Content="Run" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" Height="66" Width="126" FontSize="36" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,10,0,0" Text="Run and Create Multiple Apps GUI" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="550" FontSize="36"/>
+        <Button Content="Run" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" Height="66" Width="126" FontSize="36" Click="Button_Click"/>
         <Button x:Name="App_Select_Button" HorizontalAlignment="Center" Margin="0,95,0,0" VerticalAlignment="Top" Click="App_Select_Button_Click" Height="52" Width="298">
             <TextBlock TextAlignment="Center" TextWrapping="Wrap" FontSize="14"><Run Text="Select the apps you would like to run together"/><LineBreak/><Run Text="Afterwards click run"/></TextBlock>
         </Button>
-        <TextBox x:Name="SelectedText" HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Height="140"/>
+        <TextBox x:Name="SelectedText" VerticalScrollBarVisibility="Auto" IsReadOnly="True" HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Height="140"/>
         <TextBlock HorizontalAlignment="Left" Margin="251,163,0,0" Text="Currently Selected:" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="108"/>
         <Button x:Name="Select_Path_Button" HorizontalAlignment="Left" Margin="598,95,0,0" VerticalAlignment="Top" Height="62" Width="163" Click="Select_Path_Button_Click">
-            <TextBlock TextAlignment="Center" TextWrapping="Wrap" FontSize="14" Height="64" Width="163"><Run Text="Please select where"/><LineBreak/><Run Text="you want the file runner to save"/></TextBlock>
+            <TextBlock TextAlignment="Center" TextWrapping="Wrap" FontSize="14" Height="64" Width="163"><Run Text="Please select where"/><LineBreak/><Run Text="you want the file runner to save and write name"/><LineBreak/><Run/></TextBlock>
         </Button>
         <TextBlock HorizontalAlignment="Left" Margin="598,185,0,0" Text="Current Path:" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="73"/>
-        <TextBox x:Name="Current_Path" HorizontalAlignment="Left" Margin="598,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="37"/>
+        <TextBox x:Name="Current_Path" IsReadOnly="True" HorizontalAlignment="Left" Margin="598,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="37"/>
+        <Button x:Name="Clear_Button" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Height="52" Width="223" FontSize="20" Click="Clear_Button_Click_1">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Center" RenderTransformOrigin="0.504,0.712" Height="31"><Run Text="Clear Selected Apps"/><LineBreak/><Run/></TextBlock>
+        </Button>
 
     </Grid>
 </Window>

@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
 using System.IO;
-
+using System.Windows.Media.Animation;
 
 namespace Run_Multiple_Apps_GUI
 {
@@ -24,7 +24,7 @@ namespace Run_Multiple_Apps_GUI
     public partial class MainWindow : Window
     {
 
-        List<String> pathList = new List<string>(5);
+        List<String> pathList = new List<string>(1);
         List<String> applicationNames = new List<string>(5);
 
         private string savePath;
@@ -37,10 +37,23 @@ namespace Run_Multiple_Apps_GUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var message = string.Join(Environment.NewLine, pathList.ToArray());
-            System.Windows.Forms.MessageBox.Show("The paths that you have selected is \n" + message);
-            CreateExecutable createFile = new CreateExecutable(pathList, savePath, fileName);
-            createFile.create();
+            if (applicationNames.Any() && !string.IsNullOrEmpty(savePath)) {
+                if (!string.IsNullOrEmpty(fileName))
+                {
+                    var message = string.Join(Environment.NewLine, pathList.ToArray());
+                    System.Windows.Forms.MessageBox.Show("The paths that you have selected are \n" + message);
+                    CreateExecutable createFile = new CreateExecutable(pathList, savePath, fileName);
+                    createFile.create();
+                }
+                else
+                {
+                    System.Windows.Forms.MessageBox.Show("Please select a file name along with the path");
+                }
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Please pick at least one application or a filepath");
+            }
         }
 
         private void App_Select_Button_Click(object sender, RoutedEventArgs e)
@@ -68,6 +81,8 @@ namespace Run_Multiple_Apps_GUI
 
         private void Select_Path_Button_Click(object sender, RoutedEventArgs e)
         {
+            savePath = null;
+            Current_Path.Text = "";
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "Text Files (*.txt)|*.txt";
 
@@ -77,7 +92,17 @@ namespace Run_Multiple_Apps_GUI
             }
             fileName = System.IO.Path.GetFileName(sfd.FileName);
 
-            Current_Path.Text = savePath + fileName;
+            Current_Path.Text = savePath + "\\" + fileName;
+        }
+
+
+        private void Clear_Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < applicationNames.Count; i++)
+            {
+                applicationNames.RemoveAt(i);
+            }
+            SelectedText.Text = "";
         }
     }
 }

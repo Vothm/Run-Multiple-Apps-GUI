@@ -17,3 +17,5 @@ D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Rele
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Release\netcoreapp3.1\Run Multiple Apps GUI.dll
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Release\netcoreapp3.1\Run Multiple Apps GUI.pdb
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Release\netcoreapp3.1\Run Multiple Apps GUI.genruntimeconfig.cache
+D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\bin\Release\netcoreapp3.1\AutoClosingMessageBox.dll
+D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Release\netcoreapp3.1\Run Multiple Apps GUI.csproj.CopyComplete

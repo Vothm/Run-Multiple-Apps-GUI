@@ -8,4 +8,8 @@
 	<UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoClosingMessageBox" Version="1.0.0.2" />
+  </ItemGroup>
+
 </Project>

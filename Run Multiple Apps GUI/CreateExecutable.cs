@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
-using System.Diagnostics;
+using System.Windows.Forms;
+
 namespace Run_Multiple_Apps_GUI
 {
     class CreateExecutable
@@ -24,7 +24,6 @@ namespace Run_Multiple_Apps_GUI
 
         public void create()
         {
-
             string fullPath = System.IO.Path.Combine(this.filePath, this.fileName);
             if (!Directory.Exists(this.filePath))
             {
@@ -43,8 +42,7 @@ namespace Run_Multiple_Apps_GUI
                 {
                     File.Delete(fullPath);
                 }
-                
-                System.Windows.Forms.MessageBox.Show("Creating file");
+                AutoClosingMessageBox.Show("Creating file");
                 // Create a new file 
                 using (StreamWriter sw = new StreamWriter(fullPath))
                 {
@@ -53,13 +51,13 @@ namespace Run_Multiple_Apps_GUI
                     {
                         sw.WriteLine("start \"\" \"" + this.listOfApps[i] + "\"");
                     }
-                    System.Windows.Forms.MessageBox.Show("File Made");
+                    AutoClosingMessageBox.Show("File made");
                 }
 
-                System.Windows.Forms.MessageBox.Show("Converting file...");
+                AutoClosingMessageBox.Show("Converting File...");
                 File.Move(fullPath, Path.ChangeExtension(fullPath, ".bat"));
 
-                System.Windows.Forms.MessageBox.Show("Removing temporary file...");
+                AutoClosingMessageBox.Show("Removing temporary file");
                 File.Delete(fullPath);
             }
             catch (Exception Ex)
