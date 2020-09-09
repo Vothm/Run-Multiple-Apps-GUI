@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qTmFpROwDzGCRQERtItmBn2U7+xrUo55ObKQhbSFpLKgBwahfRYz+pkK8MFOA2/clFkWuFgib7k2PyBkl8XOjQ==",
+  "dgSpecHash": "d6asb/s940K2bcpy8mnOaUOOJJCfXtScaNA44QuiZSqPanN3zbZ81FxwWUtormDSQcvrWzdoLE8o9Ag69cfTOg==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
+  "projectFilePath": "D:\\Code\\Github Repos\\Run-Multiple-Apps-GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vince\\.nuget\\packages\\autoclosingmessagebox\\1.0.0.2\\autoclosingmessagebox.1.0.0.2.nupkg.sha512"
   ],

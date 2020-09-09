@@ -38,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
+      "projectUniqueName": "D:\\Code\\Github Repos\\Run-Multiple-Apps-GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
       "projectName": "Run Multiple Apps GUI",
-      "projectPath": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
+      "projectPath": "D:\\Code\\Github Repos\\Run-Multiple-Apps-GUI\\Run Multiple Apps GUI\\Run Multiple Apps GUI.csproj",
       "packagesPath": "C:\\Users\\vince\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Visual Studio repos\\Run Multiple Apps GUI\\Run Multiple Apps GUI\\obj\\",
+      "outputPath": "D:\\Code\\Github Repos\\Run-Multiple-Apps-GUI\\Run Multiple Apps GUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vince\\AppData\\Roaming\\NuGet\\NuGet.Config",

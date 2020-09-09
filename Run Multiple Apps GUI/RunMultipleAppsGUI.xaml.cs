@@ -23,9 +23,8 @@ namespace Run_Multiple_Apps_GUI
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        List<String> pathList = new List<string>(1);
-        List<String> applicationNames = new List<string>(5);
+        private List<String> pathList = new List<string>(1);
+        private List<String> applicationNames = new List<string>(5);
 
         private string savePath;
         private string fileName;
@@ -42,8 +41,7 @@ namespace Run_Multiple_Apps_GUI
                 {
                     var message = string.Join(Environment.NewLine, pathList.ToArray());
                     System.Windows.Forms.MessageBox.Show("The paths that you have selected are \n" + message);
-                    CreateExecutable createFile = new CreateExecutable(pathList, savePath, fileName);
-                    createFile.create();
+                    _ = new CreateExecutable(pathList, savePath, fileName);
                 }
                 else
                 {
@@ -90,7 +88,7 @@ namespace Run_Multiple_Apps_GUI
             {
                 savePath = System.IO.Path.GetDirectoryName(sfd.FileName);
             }
-            fileName = System.IO.Path.GetFileName(sfd.FileName);
+            fileName = System.IO.Path.GetFileNameWithoutExtension(sfd.FileName);
 
             Current_Path.Text = savePath + "\\" + fileName;
         }

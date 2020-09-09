@@ -19,3 +19,29 @@ D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Debu
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csprojAssemblyReference.cache
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\AutoClosingMessageBox.dll
 D:\Code\Visual Studio repos\Run Multiple Apps GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csproj.CopyComplete
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csproj.ResolveComReference.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\RunMultipleAppsGUI.g.cs
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI_MarkupCompile.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI_MarkupCompile.lref
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.dll
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.pdb
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.exe
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.deps.json
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.runtimeconfig.json
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.runtimeconfig.dev.json
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.dll
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Run Multiple Apps GUI.pdb
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\AutoClosingMessageBox.dll
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\bin\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\RunMultipleAppsGUI.baml
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.g.resources
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.AssemblyInfoInputs.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.AssemblyInfo.cs
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csproj.CoreCompileInputs.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csproj.CopyComplete
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.genruntimeconfig.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run_Multiple_Apps_GUI.Properties.Resources.resources
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csproj.GenerateResource.cache
+D:\Code\Github Repos\Run-Multiple-Apps-GUI\Run Multiple Apps GUI\obj\Debug\netcoreapp3.1\Run Multiple Apps GUI.csprojAssemblyReference.cache

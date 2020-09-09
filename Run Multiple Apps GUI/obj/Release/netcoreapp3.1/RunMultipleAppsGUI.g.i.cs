@@ -94,7 +94,7 @@ namespace Run_Multiple_Apps_GUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Run Multiple Apps GUI;component/runmultipleappsgui.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Run Multiple Apps GUI;V1.0.0.0;component/runmultipleappsgui.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RunMultipleAppsGUI.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
